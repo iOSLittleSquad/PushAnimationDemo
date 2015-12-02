@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController <UINavigationControllerDelegate,UIViewControllerAnimatedTransitioning>
+@interface ViewController : UITableViewController <UINavigationControllerDelegate,UIViewControllerTransitioningDelegate>
 
 
 @end

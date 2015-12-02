@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790F7A1C1C0F2D79004107BE /* CustomAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F7A1B1C0F2D79004107BE /* CustomAnimator.m */; };
 		792B251A1C0C2FBE000F55DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B25191C0C2FBE000F55DF /* main.m */; };
 		792B251D1C0C2FBE000F55DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B251C1C0C2FBE000F55DF /* AppDelegate.m */; };
 		792B25201C0C2FBE000F55DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B251F1C0C2FBE000F55DF /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790F7A1A1C0F2D79004107BE /* CustomAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimator.h; sourceTree = "<group>"; };
+		790F7A1B1C0F2D79004107BE /* CustomAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimator.m; sourceTree = "<group>"; };
 		792B25151C0C2FBE000F55DF /* PushAndPopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushAndPopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		792B25191C0C2FBE000F55DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		792B251B1C0C2FBE000F55DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,13 +111,15 @@
 				792B251C1C0C2FBE000F55DF /* AppDelegate.m */,
 				792B251E1C0C2FBE000F55DF /* ViewController.h */,
 				792B251F1C0C2FBE000F55DF /* ViewController.m */,
+				792B254B1C0D410F000F55DF /* DetailViewController.h */,
+				792B254C1C0D410F000F55DF /* DetailViewController.m */,
+				790F7A1A1C0F2D79004107BE /* CustomAnimator.h */,
+				790F7A1B1C0F2D79004107BE /* CustomAnimator.m */,
 				792B25211C0C2FBE000F55DF /* Main.storyboard */,
 				792B25241C0C2FBF000F55DF /* Assets.xcassets */,
 				792B25261C0C2FBF000F55DF /* LaunchScreen.storyboard */,
 				792B25291C0C2FBF000F55DF /* Info.plist */,
 				792B25181C0C2FBE000F55DF /* Supporting Files */,
-				792B254B1C0D410F000F55DF /* DetailViewController.h */,
-				792B254C1C0D410F000F55DF /* DetailViewController.m */,
 			);
 			path = PushAndPopDemo;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790F7A1C1C0F2D79004107BE /* CustomAnimator.m in Sources */,
 				792B25201C0C2FBE000F55DF /* ViewController.m in Sources */,
 				792B251D1C0C2FBE000F55DF /* AppDelegate.m in Sources */,
 				792B251A1C0C2FBE000F55DF /* main.m in Sources */,
